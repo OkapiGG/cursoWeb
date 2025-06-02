@@ -37,5 +37,10 @@ nav > div{
 
 a{
     display: flex;
+    text-decoration: none;
     align-items: center;
+}
+
+span{
+    color: red;
 }

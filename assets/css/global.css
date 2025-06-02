@@ -1,23 +1,41 @@
-.rojo{
-    width: 2rem;
-    height: 2rem;
-    background-color: red;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-#rojo{
-    width: 3rem;
-    height: 3rem;
-    background-color: blue;
+header{
+    display: flex;
 }
 
-div{
-    width: 3rem;
-    height: 3rem;
-    background-color: rgb(0, 255, 85);
+nav{
+    display: flex;
+    gap: 3rem;
+    width: 100%;
 }
 
-.rojo > div{
-    width: 3rem;
-    height: 3rem;
-    background-color: rgb(0, 255, 85);
+ul{
+    display: flex;
+    height: 100%;
+    gap: 2rem;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    height: 100%;
+
+}
+
+nav > div{
+    display: flex;
+    height: 100%;
+    padding: 1rem 2rem;
+}
+
+a{
+    display: flex;
+    align-items: center;
 }
